@@ -1,0 +1,24 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+	
+	char c;
+	
+	cout<<"Enetr Character: "<<endl;
+	cin>>c;
+	
+	if(c=='i' || c=='a' || c=='e' || c=='o' || c=='u' || c=='A' || c=='E' || c=='I' || c=='O' || c=='U'){
+		
+			cout<<"Vowel"<<endl;
+			
+	}
+	else if(c=='1' || c=='2' || c=='3' || c=='4' || c=='5' || c=='6' || c=='7' || c=='8' || c=='9' || c=='10'){
+		cout<<"Invalid Input"<<endl;
+	}
+	
+	else{
+		cout<<"Consonant"<<endl;
+	}
+}
